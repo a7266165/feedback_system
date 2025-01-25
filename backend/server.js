@@ -16,8 +16,8 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 // 設定資料庫連接
 const connection = mysql.createConnection({
   host: 'localhost',
-  user: 'a7266164',
-  password: 'Aa0918581858',
+  user: 'xxx',
+  password: 'xxx',
   database: 'feedback_system'
 });
 
