@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.map-container {
+    flex: 2;
+}
+.info-panel {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    min-height: 200px;
+}
+.reset-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.selected-details {
+    margin-top: 10px;
+}
+
+
+
+.county {
+    fill: #ccc;
+    stroke: white;
+    stroke-width: 1px;
+    transition: fill 0.3s ease;
+}
+
+.town {
+    fill: #ccc;
+    stroke: white;
+    stroke-width: 1px;
+    transition: fill 0.3s ease;
+}
+
+.village {
+    fill: #ccc;
+    stroke: white;
+    stroke-width: 1px;
+    transition: fill 0.3s ease;
+}
+
+.county:hover {
+    fill: #999;
+    cursor: pointer;
+}
+
+.town:hover {
+    fill: #999;
+    cursor: pointer;
+}
+
+.village:hover {
+    fill: #999;
+    cursor: pointer;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+    display: none;
+}
+
+.island-box {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+
+.highlighted {
+    stroke: #6B48FF;  /* 選中區域邊框顏色 */
+    stroke-width: 2;  /* 邊框寬度 */
+    fill-opacity: 0.25;  /* 半透明填充 */
+}
